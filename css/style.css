@@ -1,0 +1,253 @@
+
+.circle-container{
+  opacity: 0;
+  border-radius: 100%;
+
+  width: 85vw;
+  height: 85vw;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  position: absolute;
+  display: block;
+  border: 1px solid black;
+animation-name: circle;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+  animation-delay: .75s;
+  transition: 1s;
+}
+
+.circle-container:hover{
+  border: 5px solid rgb(107, 64, 142, 100);
+  transition: .5s;
+}
+
+.circle-container-2:hover{
+  border: 5px solid rgb(239, 67, 94, 100);
+  transition: .5s;
+}
+
+.circle-container-3:hover{
+  border: 5px solid rgb(0, 174, 151, 100);
+  transition: .5s;
+}
+
+.circle-container-4:hover{
+  border: 5px solid black;
+  transition: .5s;
+}
+
+.circle-container-2{
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 100%;
+
+  width: 77.5vw;
+  height: 77.5vw;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: .5s;
+  transition: 1s;
+}
+
+.circle-container-3{
+  opacity: 0;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 70vw;
+    width: 70vw;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin-bottom: auto;
+    display: block;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+      animation-delay: .25s;
+      transition: 1s;
+}
+
+
+.circle-container-4{
+  opacity: 0;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 62.5vw;
+    width: 62.5vw;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: block;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+    z-index: 5;
+}
+
+
+.image{
+background: url('../images/logo.svg') no-repeat;
+height: 60vw;
+width: 60vw;
+position: absolute;
+display: block;
+margin: auto;
+top: 0; left: 0; bottom: 0; right: 0;
+z-index: 20;
+transition: 1s;
+}
+
+h1{
+  z-index: 10;
+  color: black;
+  margin-top: 1em;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2{
+  position: absolute;
+  display: block;
+  top: 60vh !important;
+  text-align: right;
+  z-index: -20;
+}
+
+@keyframes circle {
+  0%   {opacity: .0;}
+  50%  {opacity: 1;}
+  100%  {opacity: .0;}
+}
+
+@media (min-width: 500px){
+
+.circle-container{
+  opacity: 0;
+  border-radius: 100%;
+
+  width: 45vw;
+  height: 45vw;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  position: absolute;
+  display: block;
+  border: 1px solid black;
+animation-name: circle;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+  animation-delay: .75s;
+  transition: 1s;
+}
+
+.circle-container:hover{
+  border: 5px solid rgb(107, 64, 142, 100) !important;
+  transition: .5s;
+}
+
+.circle-container-2:hover{
+  border: 5px solid rgb(239, 67, 94, 100);
+  transition: .5s;
+}
+
+.circle-container-3:hover{
+  border: 5px solid rgb(0, 174, 151, 100);
+  transition: .5s;
+}
+
+.circle-container-4:hover{
+  border: 5px solid black;
+  transition: .5s;
+}
+
+.circle-container-2{
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin-left: 32.5vw;
+  width: 37.5vw;
+  height: 37.5vw;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  animation-name: circle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: .5s;
+  transition: 1s;
+}
+
+.circle-container-3{
+  opacity: 0;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin-bottom: auto;
+    display: block;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+      animation-delay: .25s;
+      transition: 1s;
+}
+
+
+.circle-container-4{
+  opacity: 0;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 22.5vw;
+    width: 22.5vw;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: block;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+    z-index: 5;
+}
+
+img{
+
+}
+.image{
+background: url('../images/logo.svg') no-repeat;
+height: 20vw;
+width: 20vw;
+position: absolute;
+display: block;
+margin: auto;
+top: 0; left: 0; bottom: 0; right: 0;
+z-index: 20;
+transition: 1s;
+}
+
+h1{
+  z-index: 10;
+  color: black;
+  margin-top: 1em;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+
+@keyframes circle {
+  0%   {opacity: .0;}
+  50%  {opacity: 1;}
+  100%  {opacity: .0;}
+}
+}
